@@ -3,14 +3,6 @@ import os
 
 import pandas as pd
 
-def check_excel():
-    for filename in os.listdir(os.getcwd()):
-        if '.xlsx' in filename:
-            df = pd.read_excel(filename)
-            print(filename)
-            print(df.head())
-            print('\n\n')
-
 def main():
     sequence_df = pd.read_excel('gRNA_sequences.xlsx')
     count=0
