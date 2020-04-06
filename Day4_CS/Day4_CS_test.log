@@ -1,0 +1,77 @@
+INFO  @ Sun, 26 Jan 2020 23:11:35: Parameters: /global/projectb/scratch/cmodonog/Anaconda/MageckEnv/bin/mageck test -k Day4_CS.count.txt -t PO1f_Cas9_ku70_1,PO1f_Cas9_ku70_2,PO1f_Cas9_ku70_3 -c PO1f_1,PO1f_2,PO1f_3 -n Day4_CS_test 
+INFO  @ Sun, 26 Jan 2020 23:11:35: Welcome to MAGeCK v0.5.9.2. Command: test 
+INFO  @ Sun, 26 Jan 2020 23:11:35: Loading count table from Day4_CS.count.txt  
+INFO  @ Sun, 26 Jan 2020 23:11:35: Processing 1 lines.. 
+DEBUG @ Sun, 26 Jan 2020 23:11:35: Parsing error in line 1 (usually the header line). Skip this line. 
+INFO  @ Sun, 26 Jan 2020 23:11:35: Loaded 47591 records. 
+INFO  @ Sun, 26 Jan 2020 23:11:35: Loading R template file: /global/projectb/scratch/cmodonog/Anaconda/MageckEnv/lib/python3.7/site-packages/mageck/plot_template.RTemplate. 
+INFO  @ Sun, 26 Jan 2020 23:11:35: Loading R template file: /global/projectb/scratch/cmodonog/Anaconda/MageckEnv/lib/python3.7/site-packages/mageck/plot_template_indvgene.RTemplate. 
+INFO  @ Sun, 26 Jan 2020 23:11:35: Loading Rnw template file: /global/projectb/scratch/cmodonog/Anaconda/MageckEnv/lib/python3.7/site-packages/mageck/plot_template.Rnw. 
+DEBUG @ Sun, 26 Jan 2020 23:11:35: Setting up the visualization module... 
+DEBUG @ Sun, 26 Jan 2020 23:11:35: Given sample labels: PO1f_Cas9_ku70_1,PO1f_Cas9_ku70_2,PO1f_Cas9_ku70_3 
+DEBUG @ Sun, 26 Jan 2020 23:11:35: Converted index: 3 4 5 
+INFO  @ Sun, 26 Jan 2020 23:11:35: Treatment samples:PO1f_Cas9_ku70_1,PO1f_Cas9_ku70_2,PO1f_Cas9_ku70_3 
+INFO  @ Sun, 26 Jan 2020 23:11:35: Treatment sample index:3,4,5 
+DEBUG @ Sun, 26 Jan 2020 23:11:35: Given sample labels: PO1f_1,PO1f_2,PO1f_3 
+DEBUG @ Sun, 26 Jan 2020 23:11:35: Converted index: 0 1 2 
+INFO  @ Sun, 26 Jan 2020 23:11:35: Control samples:PO1f_1,PO1f_2,PO1f_3 
+INFO  @ Sun, 26 Jan 2020 23:11:35: Control sample index:0,1,2 
+DEBUG @ Sun, 26 Jan 2020 23:11:35: Initial (total) size factor: 0.922414183829658 0.7347116544492902 0.47406720540406333 2.756868694204823 1.6699385411346 2.0667572217546737 
+WARNING @ Sun, 26 Jan 2020 23:11:36: Sample 3 has too many zero-count sgRNAs (0.4847975457544494), and median normalization is unstable. Switch to total read count normalization. 
+WARNING @ Sun, 26 Jan 2020 23:11:36: Sample 4 has zero median count, so median normalization is not possible. Switch to total read count normalization. 
+WARNING @ Sun, 26 Jan 2020 23:11:36: Sample 4 has too many zero-count sgRNAs (0.5082683700699712), and median normalization is unstable. Switch to total read count normalization. 
+WARNING @ Sun, 26 Jan 2020 23:11:36: Sample 5 has too many zero-count sgRNAs (0.4045092559517556), and median normalization may be unstable. Consider switching to total read count normalization. 
+INFO  @ Sun, 26 Jan 2020 23:11:36: Final size factor: 0.922414183829658 0.7347116544492902 0.47406720540406333 2.756868694204823 1.6699385411346 2.0667572217546737 
+INFO  @ Sun, 26 Jan 2020 23:11:37: Detecting outliers from variance estimation.. Avg read count:[162.13098424818966], Var: [41571.4627691128] 
+INFO  @ Sun, 26 Jan 2020 23:11:37: Skipping 369 sgRNAs from variance calculation because of their extreme high counts (> 4* STD (mean counts) ). 
+DEBUG @ Sun, 26 Jan 2020 23:11:37: Adjusted model: 1.1346231678610184	3.257431522253018 
+INFO  @ Sun, 26 Jan 2020 23:11:37: Before RRA, 821 sgRNAs are removed with zero counts in both group(s). 
+INFO  @ Sun, 26 Jan 2020 23:11:37: Use qnorm to reversely calculate sgRNA scores ... 
+DEBUG @ Sun, 26 Jan 2020 23:11:38: lower test FDR cutoff: 0.792088945905495 
+DEBUG @ Sun, 26 Jan 2020 23:11:39: higher test FDR cutoff: 0.16634594825743 
+INFO  @ Sun, 26 Jan 2020 23:11:39: Running command: RRA -i Day4_CS_test.plow.txt -o Day4_CS_test.gene.low.txt -p 0.5 --skip-gene NA --skip-gene na  
+INFO  @ Sun, 26 Jan 2020 23:11:42: Command message: 
+INFO  @ Sun, 26 Jan 2020 23:11:42:   Welcome to RRA v 0.5.9. 
+INFO  @ Sun, 26 Jan 2020 23:11:42:   Skipping gene NA for permutation ... 
+INFO  @ Sun, 26 Jan 2020 23:11:42:   Skipping gene na for permutation ... 
+INFO  @ Sun, 26 Jan 2020 23:11:42:   Reading input file... 
+INFO  @ Sun, 26 Jan 2020 23:11:42:   Summary: 46770 sgRNAs, 7855 genes, 1 lists; skipped sgRNAs:0 
+INFO  @ Sun, 26 Jan 2020 23:11:42:   Computing lo-values for each group... 
+INFO  @ Sun, 26 Jan 2020 23:11:42:   Computing false discovery rate... 
+INFO  @ Sun, 26 Jan 2020 23:11:42:   Permuting genes with 1 sgRNAs... 
+INFO  @ Sun, 26 Jan 2020 23:11:42:   Permuting genes with 4 sgRNAs... 
+INFO  @ Sun, 26 Jan 2020 23:11:42:   Permuting genes with 5 sgRNAs... 
+INFO  @ Sun, 26 Jan 2020 23:11:42:   Permuting genes with 6 sgRNAs... 
+INFO  @ Sun, 26 Jan 2020 23:11:42:   Number of genes under FDR adjustment: 7855 
+INFO  @ Sun, 26 Jan 2020 23:11:42:   Saving to output file... 
+INFO  @ Sun, 26 Jan 2020 23:11:42:   RRA completed. 
+INFO  @ Sun, 26 Jan 2020 23:11:42:    
+INFO  @ Sun, 26 Jan 2020 23:11:42: End command message. 
+INFO  @ Sun, 26 Jan 2020 23:11:42: Running command: RRA -i Day4_CS_test.phigh.txt -o Day4_CS_test.gene.high.txt -p 0.16634594825743 --skip-gene NA --skip-gene na  
+INFO  @ Sun, 26 Jan 2020 23:11:44: Command message: 
+INFO  @ Sun, 26 Jan 2020 23:11:44:   Welcome to RRA v 0.5.9. 
+INFO  @ Sun, 26 Jan 2020 23:11:44:   Skipping gene NA for permutation ... 
+INFO  @ Sun, 26 Jan 2020 23:11:44:   Skipping gene na for permutation ... 
+INFO  @ Sun, 26 Jan 2020 23:11:44:   Reading input file... 
+INFO  @ Sun, 26 Jan 2020 23:11:44:   Summary: 46770 sgRNAs, 7855 genes, 1 lists; skipped sgRNAs:0 
+INFO  @ Sun, 26 Jan 2020 23:11:44:   Computing lo-values for each group... 
+INFO  @ Sun, 26 Jan 2020 23:11:44:   Computing false discovery rate... 
+INFO  @ Sun, 26 Jan 2020 23:11:44:   Permuting genes with 1 sgRNAs... 
+INFO  @ Sun, 26 Jan 2020 23:11:44:   Permuting genes with 4 sgRNAs... 
+INFO  @ Sun, 26 Jan 2020 23:11:44:   Permuting genes with 5 sgRNAs... 
+INFO  @ Sun, 26 Jan 2020 23:11:44:   Permuting genes with 6 sgRNAs... 
+INFO  @ Sun, 26 Jan 2020 23:11:44:   Number of genes under FDR adjustment: 7855 
+INFO  @ Sun, 26 Jan 2020 23:11:44:   Saving to output file... 
+INFO  @ Sun, 26 Jan 2020 23:11:44:   RRA completed. 
+INFO  @ Sun, 26 Jan 2020 23:11:44:    
+INFO  @ Sun, 26 Jan 2020 23:11:44: End command message. 
+DEBUG @ Sun, 26 Jan 2020 23:11:44: Sorting the merged items by negative selection... 
+INFO  @ Sun, 26 Jan 2020 23:11:44: Loading top 10 genes from Day4_CS_test.gene.low.txt: YALI1_F38538g,YALI1_D08205g,YALI1_D22768g,YALI1_D25337g,YALI1_F17087g,YALI1_A04715g,YALI1_E26900g,YALI1_F27904g,YALI1_A20221g,YALI1_D19108g 
+DEBUG @ Sun, 26 Jan 2020 23:11:44: Column index:3 
+INFO  @ Sun, 26 Jan 2020 23:11:44: Loading top 10 genes from Day4_CS_test.gene.high.txt: Nontargeting,YALI1_C00167g,YALI1_C00209g,YALI1_C00177g,YALI1_C00164g,YALI1_C00258g,YALI1_C00141g,YALI1_C00331g,YALI1_A00014g,YALI1_C00353g 
+DEBUG @ Sun, 26 Jan 2020 23:11:44: Column index:9 
+INFO  @ Sun, 26 Jan 2020 23:11:45: Running command: rm Day4_CS_test.plow.txt 
+INFO  @ Sun, 26 Jan 2020 23:11:45: Running command: rm Day4_CS_test.phigh.txt 
+INFO  @ Sun, 26 Jan 2020 23:11:45: Running command: rm Day4_CS_test.gene.low.txt 
+INFO  @ Sun, 26 Jan 2020 23:11:45: Running command: rm Day4_CS_test.gene.high.txt 
+WARNING @ Sun, 26 Jan 2020 23:11:45: Warning messages generated during normalization. Please double check with the log file to make sure the normalization process is proper. 

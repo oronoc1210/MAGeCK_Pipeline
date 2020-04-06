@@ -1,0 +1,353 @@
+INFO  @ Sun, 26 Jan 2020 23:08:15: Parameters: /global/projectb/scratch/cmodonog/Anaconda/MageckEnv/bin/mageck count -l ../grna_to_locus_lib.txt -n Day4_CS --sample-label PO1f_1,PO1f_2,PO1f_3,PO1f_Cas9_ku70_1,PO1f_Cas9_ku70_2,PO1f_Cas9_ku70_3 --fastq PO1f_1_d4.fastq PO1f_2_d4.fastq PO1f_3_d4.fastq PO1f_Cas9_ku70_1_d4.fastq PO1f_Cas9_ku70_2_d4.fastq PO1f_Cas9_ku70_3_d4.fastq 
+INFO  @ Sun, 26 Jan 2020 23:08:15: Welcome to MAGeCK v0.5.9.2. Command: count 
+INFO  @ Sun, 26 Jan 2020 23:08:15: Loading 47591 predefined sgRNAs. 
+WARNING @ Sun, 26 Jan 2020 23:08:15: There are 13 sgRNAs with duplicated sequences. 
+INFO  @ Sun, 26 Jan 2020 23:08:15: Parsing FASTQ file PO1f_1_d4.fastq... 
+INFO  @ Sun, 26 Jan 2020 23:08:15: Determining the trim-5 length of FASTQ file PO1f_1_d4.fastq... 
+INFO  @ Sun, 26 Jan 2020 23:08:15: Possible gRNA lengths:20 
+INFO  @ Sun, 26 Jan 2020 23:08:15: Processing 0M reads ... 
+INFO  @ Sun, 26 Jan 2020 23:08:17: Read length:75,74,76,73,72,67,69 
+INFO  @ Sun, 26 Jan 2020 23:08:17: Total tested reads: 100001, mapped: 90496(0.9049509504904951) 
+INFO  @ Sun, 26 Jan 2020 23:08:17: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 38	86829	0.9594788719943423 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 37	2269	0.025072931400282886 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 39	859	0.00949213224893918 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 36	238	0.002629950495049505 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 35	163	0.0018011845827439886 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 34	37	0.0004088578500707214 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 33	29	0.00032045615275813296 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 32	13	0.00014365275813295615 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 40	10	0.0001105021216407355 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 41	6	6.63012729844413e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 26	6	6.63012729844413e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 31	5	5.525106082036775e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 25	4	4.42008486562942e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 28	4	4.42008486562942e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 30	4	4.42008486562942e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 24	3	3.315063649222065e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 42	3	3.315063649222065e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 53	2	2.21004243281471e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 44	2	2.21004243281471e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 45	2	2.21004243281471e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 51	1	1.105021216407355e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 49	1	1.105021216407355e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 29	1	1.105021216407355e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 47	1	1.105021216407355e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 22	1	1.105021216407355e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 43	1	1.105021216407355e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 23	1	1.105021216407355e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: 19	1	1.105021216407355e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:17: Auto determination of trim5 results: 38 
+INFO  @ Sun, 26 Jan 2020 23:08:17: Possible gRNA lengths:20 
+INFO  @ Sun, 26 Jan 2020 23:08:17: Processing 0M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:08:19: Processing 1M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:08:22: Processing 2M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:08:24: Processing 3M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:08:26: Processing 4M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:08:28: Processing 5M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:08:31: Processing 6M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:08:33: Processing 7M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:08:35: Processing 8M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:08:37: Processing 9M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:08:40: Processing 10M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:08:42: Processing 11M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:08:45: Processing 12M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:08:46: Total: 12587220. 
+INFO  @ Sun, 26 Jan 2020 23:08:46: Mapped: 10987498. 
+INFO  @ Sun, 26 Jan 2020 23:08:46: Parsing FASTQ file PO1f_2_d4.fastq... 
+INFO  @ Sun, 26 Jan 2020 23:08:46: Determining the trim-5 length of FASTQ file PO1f_2_d4.fastq... 
+INFO  @ Sun, 26 Jan 2020 23:08:47: Possible gRNA lengths:20 
+INFO  @ Sun, 26 Jan 2020 23:08:47: Processing 0M reads ... 
+INFO  @ Sun, 26 Jan 2020 23:08:49: Read length:73,76,74,75,70,72,66 
+INFO  @ Sun, 26 Jan 2020 23:08:49: Total tested reads: 100001, mapped: 90863(0.9086209137908621) 
+INFO  @ Sun, 26 Jan 2020 23:08:49: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 36	79872	0.8790376720997546 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 42	6172	0.06792643870442314 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 35	2060	0.022671494447684976 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 37	860	0.00946479865291703 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 41	714	0.007857983997886928 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 40	293	0.0032246348898891737 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 39	227	0.0024982666211769366 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 34	206	0.0022671494447684976 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 38	118	0.0012986584198188481 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 43	110	0.0012106137811870618 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 33	94	0.0010345245039234893 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 32	50	0.0005502789914486645 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 31	25	0.0002751394957243322 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 30	12	0.00013206695794767948 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 29	11	0.00012106137811870618 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 28	10	0.00011005579828973289 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 27	6	6.603347897383974e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 26	4	4.402231931589316e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 22	4	4.402231931589316e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 49	3	3.301673948691987e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 51	2	2.201115965794658e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 46	2	2.201115965794658e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 50	2	2.201115965794658e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 23	2	2.201115965794658e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 25	1	1.100557982897329e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 48	1	1.100557982897329e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 44	1	1.100557982897329e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:49: 24	1	1.100557982897329e-05 
+INFO  @ Sun, 26 Jan 2020 23:08:49: Auto determination of trim5 results: 36 
+INFO  @ Sun, 26 Jan 2020 23:08:49: Possible gRNA lengths:20 
+INFO  @ Sun, 26 Jan 2020 23:08:49: Processing 0M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:08:51: Processing 1M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:08:53: Processing 2M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:08:56: Processing 3M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:08:58: Processing 4M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:01: Processing 5M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:03: Processing 6M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:06: Processing 7M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:08: Processing 8M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:10: Processing 9M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:13: Processing 10M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:15: Processing 11M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:18: Processing 12M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:20: Processing 13M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:23: Processing 14M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:25: Processing 15M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:27: Processing 16M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:28: Total: 16277931. 
+INFO  @ Sun, 26 Jan 2020 23:09:28: Mapped: 13794560. 
+INFO  @ Sun, 26 Jan 2020 23:09:28: Parsing FASTQ file PO1f_3_d4.fastq... 
+INFO  @ Sun, 26 Jan 2020 23:09:28: Determining the trim-5 length of FASTQ file PO1f_3_d4.fastq... 
+INFO  @ Sun, 26 Jan 2020 23:09:28: Possible gRNA lengths:20 
+INFO  @ Sun, 26 Jan 2020 23:09:28: Processing 0M reads ... 
+INFO  @ Sun, 26 Jan 2020 23:09:31: Read length:75,73,74,76,65,72,62 
+INFO  @ Sun, 26 Jan 2020 23:09:31: Total tested reads: 100001, mapped: 90940(0.9093909060909391) 
+INFO  @ Sun, 26 Jan 2020 23:09:31: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 42	87212	0.9590059379810865 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 41	2412	0.02652298218605674 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 43	747	0.008214207169562348 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 40	261	0.0028700241917747967 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 39	101	0.001110622388387948 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 38	46	0.0005058280184737189 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 37	35	0.00038486914449087313 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 36	28	0.0003078953155926985 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 44	16	0.00017594018033868485 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 35	13	0.00014295139652518144 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 45	11	0.00012095887398284583 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 48	9	9.896635144051023e-05 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 32	6	6.597756762700682e-05 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 49	6	6.597756762700682e-05 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 34	5	5.4981306355839013e-05 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 33	4	4.398504508467121e-05 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 31	4	4.398504508467121e-05 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 46	4	4.398504508467121e-05 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 30	4	4.398504508467121e-05 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 28	4	4.398504508467121e-05 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 29	3	3.298878381350341e-05 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 47	2	2.1992522542335606e-05 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 23	2	2.1992522542335606e-05 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 54	2	2.1992522542335606e-05 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 27	1	1.0996261271167803e-05 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 53	1	1.0996261271167803e-05 
+INFO  @ Sun, 26 Jan 2020 23:09:31: 51	1	1.0996261271167803e-05 
+INFO  @ Sun, 26 Jan 2020 23:09:31: Auto determination of trim5 results: 42 
+INFO  @ Sun, 26 Jan 2020 23:09:31: Possible gRNA lengths:20 
+INFO  @ Sun, 26 Jan 2020 23:09:31: Processing 0M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:33: Processing 1M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:36: Processing 2M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:38: Processing 3M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:41: Processing 4M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:44: Processing 5M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:46: Processing 6M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:48: Processing 7M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:51: Processing 8M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:53: Processing 9M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:55: Processing 10M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:09:58: Processing 11M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:00: Processing 12M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:03: Processing 13M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:05: Processing 14M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:07: Processing 15M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:10: Processing 16M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:12: Processing 17M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:15: Processing 18M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:17: Processing 19M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:20: Processing 20M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:23: Processing 21M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:25: Processing 22M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:28: Processing 23M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:30: Processing 24M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:31: Total: 24367796. 
+INFO  @ Sun, 26 Jan 2020 23:10:31: Mapped: 21378876. 
+INFO  @ Sun, 26 Jan 2020 23:10:31: Parsing FASTQ file PO1f_Cas9_ku70_1_d4.fastq... 
+INFO  @ Sun, 26 Jan 2020 23:10:31: Determining the trim-5 length of FASTQ file PO1f_Cas9_ku70_1_d4.fastq... 
+INFO  @ Sun, 26 Jan 2020 23:10:31: Possible gRNA lengths:20 
+INFO  @ Sun, 26 Jan 2020 23:10:31: Processing 0M reads ... 
+INFO  @ Sun, 26 Jan 2020 23:10:34: Read length:75,73,74,76,72,67,68,71 
+INFO  @ Sun, 26 Jan 2020 23:10:34: Total tested reads: 100001, mapped: 67941(0.6794032059679403) 
+INFO  @ Sun, 26 Jan 2020 23:10:34: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 42	65353	0.9619081261682931 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 41	1586	0.02334378357692704 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 43	640	0.009419937887284556 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 40	164	0.0024138590836166674 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 39	51	0.000750651300392988 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 38	33	0.0004857155473131099 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 37	30	0.00044155958846646355 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 35	13	0.00019134248833546755 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 29	11	0.0001619051824377033 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 33	10	0.0001471865294888212 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 31	9	0.00013246787653993907 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 44	8	0.00011774922359105695 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 55	7	0.00010303057064217482 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 36	5	7.35932647444106e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 48	5	7.35932647444106e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 50	4	5.8874611795528476e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 34	3	4.4155958846646355e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 51	2	2.9437305897764238e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 54	2	2.9437305897764238e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 49	1	1.4718652948882119e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 45	1	1.4718652948882119e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 47	1	1.4718652948882119e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 26	1	1.4718652948882119e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:34: 30	1	1.4718652948882119e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:34: Auto determination of trim5 results: 42 
+INFO  @ Sun, 26 Jan 2020 23:10:34: Possible gRNA lengths:20 
+INFO  @ Sun, 26 Jan 2020 23:10:34: Processing 0M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:36: Processing 1M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:38: Processing 2M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:40: Processing 3M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:42: Processing 4M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:44: Processing 5M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:46: Total: 5628412. 
+INFO  @ Sun, 26 Jan 2020 23:10:46: Mapped: 3676281. 
+INFO  @ Sun, 26 Jan 2020 23:10:46: Parsing FASTQ file PO1f_Cas9_ku70_2_d4.fastq... 
+INFO  @ Sun, 26 Jan 2020 23:10:46: Determining the trim-5 length of FASTQ file PO1f_Cas9_ku70_2_d4.fastq... 
+INFO  @ Sun, 26 Jan 2020 23:10:46: Possible gRNA lengths:20 
+INFO  @ Sun, 26 Jan 2020 23:10:46: Processing 0M reads ... 
+INFO  @ Sun, 26 Jan 2020 23:10:48: Read length:75,76,73,74,72,71,66,63,62,68 
+INFO  @ Sun, 26 Jan 2020 23:10:48: Total tested reads: 100001, mapped: 67942(0.6794132058679413) 
+INFO  @ Sun, 26 Jan 2020 23:10:48: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 40	65269	0.9606576197344794 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 39	1685	0.024800565187954433 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 41	594	0.008742751170115687 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 38	178	0.002619881663772041 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 37	80	0.0011774749050660858 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 35	35	0.0005151452709664126 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 36	32	0.0004709899620264343 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 42	23	0.00033852403520649965 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 34	11	0.0001619027994465868 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 27	6	8.831061787995643e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 46	4	5.887374525330429e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 30	3	4.4155308939978214e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 31	3	4.4155308939978214e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 33	3	4.4155308939978214e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 52	2	2.9436872626652145e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 25	2	2.9436872626652145e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 29	2	2.9436872626652145e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 28	2	2.9436872626652145e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 49	2	2.9436872626652145e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 43	1	1.4718436313326072e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 48	1	1.4718436313326072e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 32	1	1.4718436313326072e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 47	1	1.4718436313326072e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 26	1	1.4718436313326072e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:48: 44	1	1.4718436313326072e-05 
+INFO  @ Sun, 26 Jan 2020 23:10:48: Auto determination of trim5 results: 40 
+INFO  @ Sun, 26 Jan 2020 23:10:48: Possible gRNA lengths:20 
+INFO  @ Sun, 26 Jan 2020 23:10:48: Processing 0M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:51: Processing 1M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:53: Processing 2M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:55: Processing 3M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:10:57: Processing 4M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:11:00: Processing 5M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:11:02: Processing 6M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:11:05: Processing 7M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:11:07: Processing 8M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:11:10: Processing 9M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:11:11: Total: 9273365. 
+INFO  @ Sun, 26 Jan 2020 23:11:11: Mapped: 6069100. 
+INFO  @ Sun, 26 Jan 2020 23:11:11: Parsing FASTQ file PO1f_Cas9_ku70_3_d4.fastq... 
+INFO  @ Sun, 26 Jan 2020 23:11:11: Determining the trim-5 length of FASTQ file PO1f_Cas9_ku70_3_d4.fastq... 
+INFO  @ Sun, 26 Jan 2020 23:11:11: Possible gRNA lengths:20 
+INFO  @ Sun, 26 Jan 2020 23:11:11: Processing 0M reads ... 
+INFO  @ Sun, 26 Jan 2020 23:11:14: Read length:75,76,74,73,72,71,66,35,69,58,70,64 
+INFO  @ Sun, 26 Jan 2020 23:11:14: Total tested reads: 100001, mapped: 65986(0.6598534014659854) 
+INFO  @ Sun, 26 Jan 2020 23:11:14: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 38	63391	0.9606734761919195 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 37	1445	0.021898584548237506 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 39	593	0.00898675476616252 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 35	213	0.0032279574455187465 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 36	190	0.0028793986603218866 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 34	39	0.0005910344618555451 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 33	35	0.0005304155426908738 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 40	21	0.00031824932561452427 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 32	8	0.00012123783832934258 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 29	8	0.00012123783832934258 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 42	8	0.00012123783832934258 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 31	7	0.00010608310853817477 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 25	7	0.00010608310853817477 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 27	4	6.061891916467129e-05 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 51	4	6.061891916467129e-05 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 30	3	4.546418937350347e-05 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 47	3	4.546418937350347e-05 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 43	2	3.0309459582335645e-05 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 41	2	3.0309459582335645e-05 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 49	1	1.5154729791167823e-05 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 46	1	1.5154729791167823e-05 
+INFO  @ Sun, 26 Jan 2020 23:11:14: 44	1	1.5154729791167823e-05 
+INFO  @ Sun, 26 Jan 2020 23:11:14: Auto determination of trim5 results: 38 
+INFO  @ Sun, 26 Jan 2020 23:11:14: Possible gRNA lengths:20 
+INFO  @ Sun, 26 Jan 2020 23:11:14: Processing 0M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:11:16: Processing 1M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:11:19: Processing 2M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:11:22: Processing 3M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:11:24: Processing 4M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:11:26: Processing 5M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:11:29: Processing 6M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:11:31: Processing 7M reads .. 
+INFO  @ Sun, 26 Jan 2020 23:11:33: Total: 7716327. 
+INFO  @ Sun, 26 Jan 2020 23:11:33: Mapped: 4903829. 
+DEBUG @ Sun, 26 Jan 2020 23:11:33: Initial (total) size factor: 0.922414183829658 0.7347116544492902 0.47406720540406333 2.756868694204823 1.6699385411346 2.0667572217546737 
+WARNING @ Sun, 26 Jan 2020 23:11:34: Sample 3 has too many zero-count sgRNAs (0.4798243380855397), and median normalization is unstable. Switch to total read count normalization. 
+WARNING @ Sun, 26 Jan 2020 23:11:34: Sample 4 has zero median count, so median normalization is not possible. Switch to total read count normalization. 
+WARNING @ Sun, 26 Jan 2020 23:11:34: Sample 4 has too many zero-count sgRNAs (0.5035217243720299), and median normalization is unstable. Switch to total read count normalization. 
+WARNING @ Sun, 26 Jan 2020 23:11:34: Sample 5 has too many zero-count sgRNAs (0.3987610319076714), and median normalization may be unstable. Consider switching to total read count normalization. 
+INFO  @ Sun, 26 Jan 2020 23:11:34: Final size factor: 0.922414183829658 0.7347116544492902 0.47406720540406333 2.756868694204823 1.6699385411346 2.0667572217546737 
+INFO  @ Sun, 26 Jan 2020 23:11:34: Summary of file PO1f_1_d4.fastq: 
+INFO  @ Sun, 26 Jan 2020 23:11:34: label	PO1f_1 
+INFO  @ Sun, 26 Jan 2020 23:11:34: reads	12587220 
+INFO  @ Sun, 26 Jan 2020 23:11:34: mappedreads	10987498 
+INFO  @ Sun, 26 Jan 2020 23:11:34: totalsgrnas	47591 
+INFO  @ Sun, 26 Jan 2020 23:11:34: zerosgrnas	1198 
+INFO  @ Sun, 26 Jan 2020 23:11:34: giniindex	0.13340003480285345 
+INFO  @ Sun, 26 Jan 2020 23:11:34: Summary of file PO1f_2_d4.fastq: 
+INFO  @ Sun, 26 Jan 2020 23:11:34: label	PO1f_2 
+INFO  @ Sun, 26 Jan 2020 23:11:34: reads	16277931 
+INFO  @ Sun, 26 Jan 2020 23:11:34: mappedreads	13794560 
+INFO  @ Sun, 26 Jan 2020 23:11:34: totalsgrnas	47591 
+INFO  @ Sun, 26 Jan 2020 23:11:34: zerosgrnas	1062 
+INFO  @ Sun, 26 Jan 2020 23:11:34: giniindex	0.12262755312268725 
+INFO  @ Sun, 26 Jan 2020 23:11:34: Summary of file PO1f_3_d4.fastq: 
+INFO  @ Sun, 26 Jan 2020 23:11:34: label	PO1f_3 
+INFO  @ Sun, 26 Jan 2020 23:11:34: reads	24367796 
+INFO  @ Sun, 26 Jan 2020 23:11:34: mappedreads	21378876 
+INFO  @ Sun, 26 Jan 2020 23:11:34: totalsgrnas	47591 
+INFO  @ Sun, 26 Jan 2020 23:11:34: zerosgrnas	1133 
+INFO  @ Sun, 26 Jan 2020 23:11:34: giniindex	0.11476407813330314 
+INFO  @ Sun, 26 Jan 2020 23:11:34: Summary of file PO1f_Cas9_ku70_1_d4.fastq: 
+INFO  @ Sun, 26 Jan 2020 23:11:34: label	PO1f_Cas9_ku70_1 
+INFO  @ Sun, 26 Jan 2020 23:11:34: reads	5628412 
+INFO  @ Sun, 26 Jan 2020 23:11:34: mappedreads	3676281 
+INFO  @ Sun, 26 Jan 2020 23:11:34: totalsgrnas	47591 
+INFO  @ Sun, 26 Jan 2020 23:11:34: zerosgrnas	23072 
+INFO  @ Sun, 26 Jan 2020 23:11:34: giniindex	0.6776618702098924 
+INFO  @ Sun, 26 Jan 2020 23:11:34: Summary of file PO1f_Cas9_ku70_2_d4.fastq: 
+INFO  @ Sun, 26 Jan 2020 23:11:34: label	PO1f_Cas9_ku70_2 
+INFO  @ Sun, 26 Jan 2020 23:11:34: reads	9273365 
+INFO  @ Sun, 26 Jan 2020 23:11:34: mappedreads	6069100 
+INFO  @ Sun, 26 Jan 2020 23:11:34: totalsgrnas	47591 
+INFO  @ Sun, 26 Jan 2020 23:11:34: zerosgrnas	24189 
+INFO  @ Sun, 26 Jan 2020 23:11:34: giniindex	0.6599940016292931 
+INFO  @ Sun, 26 Jan 2020 23:11:34: Summary of file PO1f_Cas9_ku70_3_d4.fastq: 
+INFO  @ Sun, 26 Jan 2020 23:11:34: label	PO1f_Cas9_ku70_3 
+INFO  @ Sun, 26 Jan 2020 23:11:34: reads	7716327 
+INFO  @ Sun, 26 Jan 2020 23:11:34: mappedreads	4903829 
+INFO  @ Sun, 26 Jan 2020 23:11:34: totalsgrnas	47591 
+INFO  @ Sun, 26 Jan 2020 23:11:34: zerosgrnas	19251 
+INFO  @ Sun, 26 Jan 2020 23:11:34: giniindex	0.6147093777113813 
+INFO  @ Sun, 26 Jan 2020 23:11:34: Loading Rnw template file: /global/projectb/scratch/cmodonog/Anaconda/MageckEnv/lib/python3.7/site-packages/mageck/fastq_template.Rnw. 
+DEBUG @ Sun, 26 Jan 2020 23:11:34: Setting up the visualization module... 
